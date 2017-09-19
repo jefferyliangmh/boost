@@ -246,10 +246,6 @@
 	path = libs/rational
 	url = ../rational.git
 	fetchRecurseSubmodules = on-demand
-[submodule "tr1"]
-	path = libs/tr1
-	url = ../tr1.git
-	fetchRecurseSubmodules = on-demand
 [submodule "iterator"]
 	path = libs/iterator
 	url = ../iterator.git
@@ -398,6 +394,10 @@
 	path = libs/coroutine
 	url = ../coroutine.git
 	fetchRecurseSubmodules = on-demand
+[submodule "coroutine2"]
+	path = libs/coroutine2
+	url = ../coroutine2.git
+	fetchRecurseSubmodules = on-demand
 [submodule "ratio"]
 	path = libs/ratio
 	url = ../ratio.git
@@ -485,8 +485,64 @@
 [submodule "sort"]
 	path = libs/sort
 	url = ../sort.git
-	branch = master
+	fetchRecurseSubmodules = on-demand
+[submodule "convert"]
+	path = libs/convert
+	url = ../convert.git
+	fetchRecurseSubmodules = on-demand
 [submodule "endian"]
 	path = libs/endian
 	url = ../endian.git
+	fetchRecurseSubmodules = on-demand
+[submodule "vmd"]
+	path = libs/vmd
+	url = ../vmd.git
+	fetchRecurseSubmodules = on-demand
+[submodule "dll"]
+	path = libs/dll
+	url = ../dll.git
+	fetchRecurseSubmodules = on-demand
+[submodule "compute"]
+	path = libs/compute
+	url = ../compute.git
+	fetchRecurseSubmodules = on-demand
+[submodule "hana"]
+	path = libs/hana
+	url = ../hana.git
+	fetchRecurseSubmodules = on-demand
+[submodule "metaparse"]
+	path = libs/metaparse
+	url = ../metaparse.git
+	fetchRecurseSubmodules = on-demand
+[submodule "qvm"]
+	path = libs/qvm
+	url = ../qvm.git
+	fetchRecurseSubmodules = on-demand
+[submodule "fiber"]
+	path = libs/fiber
+	url = ../fiber.git
+	fetchRecurseSubmodules = on-demand
+[submodule "process"]
+	path = libs/process
+	url = ../process.git
+	fetchRecurseSubmodules = on-demand
+[submodule "stacktrace"]
+	path = libs/stacktrace
+	url = ../stacktrace.git
+	fetchRecurseSubmodules = on-demand
+[submodule "poly_collection"]
+	path = libs/poly_collection
+	url = ../poly_collection.git
+	fetchRecurseSubmodules = on-demand
+[submodule "beast"]
+	path = libs/beast
+	url = ../beast.git
+	fetchRecurseSubmodules = on-demand
+[submodule "mp11"]
+	path = libs/mp11
+	url = ../mp11.git
+	fetchRecurseSubmodules = on-demand
+[submodule "callable_traits"]
+	path = libs/callable_traits
+	url = ../callable_traits.git
 	fetchRecurseSubmodules = on-demand
